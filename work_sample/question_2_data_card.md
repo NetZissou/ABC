@@ -1,14 +1,22 @@
 # Dataset Summary
 
-Name: Butterfly-Sample
-Description: 
+**Name:** Butterfly-Sample
+
+**Description:** 
 The `Butterfly-Sample` dataset contains images of butterfly specimens along with metadata including species, subspecies, sex, and type status. 
-Modalities: Image; Text
-Formats: `imagefolder`
-Size: <1K
-Libraries: `Datasets`; `Croissant`
-License: `MIT`
-Repository: https://huggingface.co/datasets/egrace479/Butterfly-Sample
+
+**Modalities:** Image; Text
+
+**Formats:** `imagefolder`
+
+**Size:** <1K
+
+**Libraries:** `Datasets`; `Croissant`
+
+**License:** `MIT`
+
+**Repository:** https://huggingface.co/datasets/egrace479/Butterfly-Sample
+
 # Dataset Structure
 
 ```
@@ -26,10 +34,14 @@ Butterfly-Sample/
 ```
 # Dataset Instances
 
-Filename Pattern: KDS{######}
-Data Format: .tif
-Size: ~20 kB
-Metadata: `/metadata.csv` provide the associated metadata, containing fields: `id`,  `NHM specimen number`, `view`, `species`, `subspecies`, `sex`, `type status`, `md5`.
+**Filename Pattern:** KDS{######}
+
+**Data Format:** .tif
+
+**Size:** ~20 kB
+
+**Metadata:** `/metadata.csv` provide the associated metadata, containing fields: `id`,  `NHM specimen number`, `view`, `species`, `subspecies`, `sex`, `type status`, `md5`.
+
 # Data Fields
 
 | Field Name          | Description                                                                 | Data Type | Example Values                     |
