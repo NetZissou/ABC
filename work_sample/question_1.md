@@ -4,7 +4,8 @@ Create a reproducible working environment using venv or conda. Keep track of the
 # Assumptions
 1. This dataset contains only the training split. This analysis assumes that the training set is sufficiently large and will use the provided training split to create separate sets for training, testing, and validation for model training.
 2. This analysis will focus solely on using the image data for model training. Other supporting categorical features in the metadata will not be taken into consideration.
-3. This analysis will focus on data curation exclusively and will cover less details regarding hyperparameter tuning, model selection, model improvements, etc.
+3. This is analysis assumes all species and subspecies are well represented and the subspecies are well-balanced around the sex attribute. 
+4. This analysis will focus on data curation exclusively and will cover less details regarding hyperparameter tuning, model selection, model improvements, etc.
 # Data Prep
 
 ## Loading
